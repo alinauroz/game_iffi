@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+}
+#ball {
+    width : 60px;
+    height : 60px;
+    background: radial-gradient(silver, red, black);
+    border-radius: 30px;
+    position: absolute;
+}
+
+#game-container {
+    width : 600px;
+    height : 480px;
+    background-color:  lightgrey;
+    padding : 10px;
+    position: relative;
+    background-image: url(https://i.pinimg.com/originals/b8/34/1e/b8341eca25ceea5c5fab449ae58ce896.png);
+    background-size: cover;
+    overflow: hidden;
+    animation : bg 10s;
+}
+
+#hurdles {
+    width : 720000px;
+    height : 300px;
+    position: absolute;
+    top:200px;
+}
+
+.hurdle {
+    width : 100px;
+    height : 250px;
+    background: linear-gradient(#bd7231, #222538);
+    position: absolute;
+    bottom: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/*Score*/
+
+.log {
+    width : 80px;
+    display: inline-block;
+    height: 80px;
+    font-family: 'segoe-ui', sans-serif;
+    padding: 10px;
+}
+
+.log-title {
+    margin: 0px;
+}
+
+.log-value {
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 3px;
+}
